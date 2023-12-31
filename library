@@ -1,0 +1,158 @@
+import java.util.Scanner;
+public class Library {
+    public static void RightTriangle(){
+        System.out.println("to draw a increasing right triangle please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void Square(){
+        System.out.println("to draw a square please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=1;j<=x;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void ReverseRightTriangle(){
+        System.out.println("to draw a decreasing Right triangle please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=i;j<=x;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void RightSidedTriangle(){
+        System.out.println("to draw a Right sided triangle please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=i;j<=x;j++){
+                System.out.print("  ");
+            }
+            for (int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void ReversePyramid(){
+        System.out.println("to draw a Reverse pyramid please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print(" ");
+            }
+            for (int j=i;j<=x;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void ReverseRightSidedTriangle(){
+        System.out.println("to draw a Reverse Right sided triangle please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print("  ");
+            }
+            for (int j=i;j<=x;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void Pyramid(){
+        System.out.println("to draw a pyramid please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=i;j<=x;j++){
+                System.out.print(" ");
+            }
+            for (int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void HillPattern(){
+        System.out.println("to draw a hill pattern please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=i;j<=x;j++){
+                System.out.print("  ");
+            }
+            for (int j=1;j<i;j++){
+                System.out.print("* ");
+            }
+            for (int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void ReverseHillPattern(){
+        System.out.println("to draw a Reverse hill pattern please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<=x;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print("  ");
+            }
+            for (int j=i;j<x;j++){
+                System.out.print("* ");
+            }
+            for (int j=i;j<=x;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void DiamondPattern(){
+        System.out.println("to draw a diamond pattern please enter a line number");
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        for (int i=1;i<x;i++){
+            for (int j=i;j<=x;j++){
+                System.out.print("  ");
+            }
+            for (int j=1;j<i;j++){
+                System.out.print("* ");
+            }
+            for (int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for (int i=1;i<=x;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print("  ");
+            }
+            for (int j=i;j<x;j++){
+                System.out.print("* ");
+            }
+            for (int j=i;j<=x;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+    }
+
+}
